@@ -1,51 +1,76 @@
 {"guardian_manual":[{
     "personal_characteristics":[
-    {"index": "STR", "name": "str", "description": "hability to move heavy objets"},
-    {"index": "INT", "name": "int", "description": "character's inteligence"},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
+    {"index": "STR", "name": "strength", "description": "hability to move heavy objets"},
+    {"index": "INT", "name": "inteligence", "description": "character's inteligence"},
+    {"index": "CON", "name": "constitution", "description": "character's resistence"},
+    {"index": "POW", "name": "power", "description": "power that has the character for magic"},
+    {"index": "EDU", "name": "education", "description": "character's education"},
+    {"index": "SIZE", "name": "size", "description": "character's size"},
+    {"index": "BEA", "name": "beauty", "description": "character's beauty"},
+    {"index": "SAN", "name": "sanity", "description": "character's sanity"},
+    {"index": "LUCK", "name": "luck", "description": "character's luck"},
+    {"index": "HP", "name": "health points", "description": "character's health"},
+    {"index": "PP", "name": "power points", "description": "it's related with POWER"},
+    {"index": "IDEA", "name": "idea", "description": "hability to rationalize myths"}],
 
     "skills":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
+    {"index": "SHORT_WEAPON", "name": "", "description": ""},
+    {"index": "FALSIFICATION", "name": "", "description": ""},
+    {"index": "STEALTH", "name": "", "description": ""},
+    {"index": "DRIVING", "name": "", "description": ""},
+    {"index": "CHARISMA", "name": "", "description": ""}],
 
     "nacionality":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
+    {"index": "AMERICAN", "name": "", "description": ""},
+    {"index": "BRITISH", "name": "", "description": ""},
+    {"index": "GERMAN", "name": "", "description": ""},
+    {"index": "SPANISH", "name": "", "description": ""},
+    {"index": "FRENCH", "name": "", "description": ""}],
 
     "jobs":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
+    {"index": "LAWYER", "name": "lawyer", "description": ""},
+    {"index": "POLICEMAN", "name": "", "description": ""},
+    {"index": "ATLETE", "name": "", "description": ""},
+    {"index": "LIBRARIAN", "name": "", "description": ""},
+    {"index": "CLERIC", "name": "", "description": ""},
+    {"index": "CRIMINAL", "name": "", "description": ""},
+    {"index": "WRITER", "name": "", "description": ""},
+    {"index": "FANATIC", "name": "", "description": ""},
+    {"index": "ABWEHR_AGENT", "name": "", "description": ""},
+    {"index": "MI5_AGENT", "name": "", "description": ""},
+    {"index": "MI6_AGENT", "name": "", "description": ""}],
+
+    "languages":[
+    {"index": "ENGLISH", "name": "", "description": ""},
+    {"index": "GERMAN", "name": "", "description": ""},
+    {"index": "ATLANTIS", "name": "", "description": ""},
+    {"index": "SPANISH", "name": "", "description": ""}
+    ],
 
     "weapons":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
+    {"index": "ARSENIC", "name": "", "description": ""},
+    {"index": "COLT", "name": "", "description": ""},
+    {"index": "KNIFE", "name": "", "description": ""}],
 
     "equipement":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
+    {"index": "LEATHER_COAT", "name": "", "description": ""},
+    {"index": "KEY_FALSIFICATION_KIT", "name": "", "description": ""},
+    {"index": "NOTEBOOK", "name": "", "description": ""}],
 
     "myths":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
+    {"index": "CTHULHU", "name": "", "description": ""},
+    {"index": "NYARLATHOTEP", "name": "", "description": ""},
+    {"index": "NODENS", "name": "", "description": ""}],
 
     "spells":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}],
-    
+    {"index": "CTHULHU_MYTHS", "name": "", "description": ""},
+    {"index": "VISION", "name": "", "description": ""},
+    {"index": "TELETRANSPORTATION", "name": "", "description": ""}],
+
     "mental_illness":[
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""},
-    {"index": "", "name": "", "description": ""}]
+    {"index": "PARANOIA", "name": "", "description": ""},
+    {"index": "HYSTERICAL_LAUGHT", "name": "", "description": ""},
+    {"index": "BLACK_OUT", "name": "", "description": ""},
+    {"index": "ARACHNOPHOBIA", "name": "", "description": ""}]
 }]
 }
