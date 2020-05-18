@@ -1,7 +1,7 @@
-{"guardian_manual":[{
+{
     "personal_characteristics":[
-    {"index": "STR", "name": "strength", "description": "hability to move heavy objets"},
-    {"index": "INT", "name": "inteligence", "description": "character's inteligence"},
+    {"index": "STR", "name": "strength", "description": "hability to move heavy objets, fight skill"},
+    {"index": "INT", "name": "intelligence", "description": "character's intelligence"},
     {"index": "CON", "name": "constitution", "description": "character's resistence"},
     {"index": "POW", "name": "power", "description": "power that has the character for magic"},
     {"index": "EDU", "name": "education", "description": "character's education"},
@@ -14,63 +14,83 @@
     {"index": "IDEA", "name": "idea", "description": "hability to rationalize myths"}],
 
     "skills":[
-    {"index": "SHORT_WEAPON", "name": "", "description": ""},
-    {"index": "FALSIFICATION", "name": "", "description": ""},
-    {"index": "STEALTH", "name": "", "description": ""},
-    {"index": "DRIVING", "name": "", "description": ""},
-    {"index": "CHARISMA", "name": "", "description": ""}],
+    {"index": "SHORT_WEAPON", "name": "short weapon", "description": "hability to use short fire weapons"},
+    {"index": "FALSIFICATION", "name": "falsification", "description": "hability to falsificate succesfully"},
+    {"index": "STEALTH", "name": "stealth", "description": "hability to stay out of sight"},
+    {"index": "DRIVING", "name": "driving", "description": "hability to drive every thing that has tires"},
+    {"index": "CHARISMA", "name": "charisma", "description": "hability to convince another person to think like you"},
+    {"index": "", "name": "", "description": ""}],
 
     "nacionality":[
-    {"index": "AMERICAN", "name": "", "description": ""},
-    {"index": "BRITISH", "name": "", "description": ""},
-    {"index": "GERMAN", "name": "", "description": ""},
-    {"index": "SPANISH", "name": "", "description": ""},
-    {"index": "FRENCH", "name": "", "description": ""}],
+    {"index": "AMERICAN", "name": "american", "description": "natural from EEUU, more constitution"},
+    {"index": "BRITISH", "name": "british", "description": "natural from Britain, more intelligent"},
+    {"index": "GERMAN", "name": "german", "description": "natural from Germany, more strenght"},
+    {"index": "SPANISH", "name": "spanish", "description": "natural from Spain, more charisma"},
+    {"index": "FRENCH", "name": "french", "description": "natural from France, more beauty"}],
 
     "jobs":[
-    {"index": "LAWYER", "name": "lawyer", "description": ""},
-    {"index": "POLICEMAN", "name": "", "description": ""},
-    {"index": "ATLETE", "name": "", "description": ""},
-    {"index": "LIBRARIAN", "name": "", "description": ""},
-    {"index": "CLERIC", "name": "", "description": ""},
-    {"index": "CRIMINAL", "name": "", "description": ""},
-    {"index": "WRITER", "name": "", "description": ""},
-    {"index": "FANATIC", "name": "", "description": ""},
-    {"index": "ABWEHR_AGENT", "name": "", "description": ""},
-    {"index": "MI5_AGENT", "name": "", "description": ""},
-    {"index": "MI6_AGENT", "name": "", "description": ""}],
+    {"index": "LAWYER", "name": "lawyer", "description": "Your character has a bonus in intelligence, education and law (skill)"},
+    {"index": "POLICEMAN", "name": "policeman", "description": "Your character has a bonus in strenght, size and short weapons (skill)"},
+    {"index": "ATLETE", "name": "atlete", "description": "Your character has a bonus in strenght, health and swimming (skill)"},
+    {"index": "LIBRARIAN", "name": "librarian", "description": "Your character has a bonus in intelligence, sanity and searching books(skill)"},
+    {"index": "CLERIC", "name": "cleric", "description": "Your character has a bonus in power, size and heavy weapons (skill)"},
+    {"index": "CRIMINAL", "name": "criminal", "description": "Your character has a bonus in constitution, luck and stealth (skill)"},
+    {"index": "WRITER", "name": "writer", "description": "Your character has a bonus in education, intelligence and falsification (skill)"},
+    {"index": "FANATIC", "name": "fanatic", "description": "Your character has a bonus in power and cthulhu myths (skill), but has less sanity"},
+    {"index": "ABWEHR_AGENT", "name": "abwehr agent", "description": "Your character has a bonus in intelligence, luck and charisma (skill)"},
+    {"index": "MI5_AGENT", "name": "mi5 agent", "description": "Your character has a bonus in intelligence, sanity and perception (skill)"},
+    {"index": "MI6_AGENT", "name": "mi6 agent", "description": "Your character has a bonus in intelligence, power and psicology (skill)"}],
 
     "languages":[
-    {"index": "ENGLISH", "name": "", "description": ""},
-    {"index": "GERMAN", "name": "", "description": ""},
-    {"index": "ATLANTIS", "name": "", "description": ""},
-    {"index": "SPANISH", "name": "", "description": ""}
+    {"index": "ENGLISH", "name": "english", "description": "Hability to speak english"},
+    {"index": "GERMAN", "name": "german", "description": "Hability to speak german"},
+    {"index": "ATLANTIS", "name": "atlantis", "description": "Hability to speak atlantis"},
+    {"index": "SPANISH", "name": "spanish", "description": "Hability to speak spanish"}
     ],
 
     "weapons":[
-    {"index": "ARSENIC", "name": "", "description": ""},
-    {"index": "COLT", "name": "", "description": ""},
-    {"index": "KNIFE", "name": "", "description": ""}],
+    {"index": "ARSENIC", "name": "arsenic", "description": "Poison, can be used with pharmacology (skill)"},
+    {"index": "COLT", "name": "colt", "description": "Short weapon, can be used with short weapon (skill)"},
+    {"index": "KNIFE", "name": "knife", "description": "Hand weapon, can be used with body combat (skill)"}],
 
     "equipement":[
-    {"index": "LEATHER_COAT", "name": "", "description": ""},
-    {"index": "KEY_FALSIFICATION_KIT", "name": "", "description": ""},
-    {"index": "NOTEBOOK", "name": "", "description": ""}],
+    {"index": "LEATHER_COAT", "name": "leather coat", "description": "Leather coat, +5 armor"},
+    {"index": "KEY_FALSIFICATION_KIT", "name": "key falsification kit", "description": "You can falsificate every key that falls in your hands, can be used with falsification (skill)"},
+    {"index": "NOTEBOOK", "name": "notebook", "description": "You can write in it"}],
 
     "myths":[
-    {"index": "CTHULHU", "name": "", "description": ""},
-    {"index": "NYARLATHOTEP", "name": "", "description": ""},
-    {"index": "NODENS", "name": "", "description": ""}],
+    {"index": "CTHULHU", "name": "cthulhu", "description": "Primal God, the sleeping god, he stays in R'lye, but he usually 'talk' with his subordinates with telepathy"},
+    {"index": "NYARLATHOTEP", "name": "nyarlathotep", "description": "Primal God, the multiface god, he stays underground but he loves to torment mortals"},
+    {"index": "NODENS", "name": "nodens", "description": "Minor God, the mischieve god, no one knows where he is, but he has appeared in history like Poseidon, Epona, and different water Gods."},
+    {"index": "AZATHOT", "name": "azathot", "description": "Primal God, there is no description from an alive person"},
+    {"index": "DIMENSIONAL_TRAMP", "name": "dimensional tramp", "description": "Independent race, they can travel across dimensions"},
+    {"index": "TINDALO'S_DOGS", "name": "tindalo's dogs", "description": "Independent race, this macabre dogs can travel across dimensions and they are very difficult to control"}],
 
     "spells":[
-    {"index": "CTHULHU_MYTHS", "name": "", "description": ""},
-    {"index": "VISION", "name": "", "description": ""},
-    {"index": "TELETRANSPORTATION", "name": "", "description": ""}],
+    {"index": "CTHULHU_MYTHS", "name": "cthulhu myths", "description": "This spell makes you able to understand the monsters, but it lower your sanity"},
+    {"index": "VISION", "name": "vision", "description": "Your character can have visions"},
+    {"index": "TELETRANSPORTATION", "name": "teletransportation", "description": "Your character can teleport to a place that has been before"},
+    {"index": "DREAMING", "name": "dreaming", "description": "Your character has the hability to dream and visit the Oniric World"}],
 
     "mental_illness":[
-    {"index": "PARANOIA", "name": "", "description": ""},
-    {"index": "HYSTERICAL_LAUGHT", "name": "", "description": ""},
-    {"index": "BLACK_OUT", "name": "", "description": ""},
-    {"index": "ARACHNOPHOBIA", "name": "", "description": ""}]
-}]
+    {"index": "EISOPTROPHOBIA", "name": "eisoptrophobia", "description": "Your character has an irrational terror to mirrors"},
+    {"index": "CLAUSTROPHOBIA", "name": "claustrophobia", "description": "Your character can't stand in a closed place"},
+    {"index": "DELIRIUM_TREMENS", "name": "delirium tremens", "description": "There's nothing more to do, make another character"},
+    {"index": "ARACHNOPHOBIA", "name": "arachnophobia", "description": "Your character develops phobia to arachnids"},
+    {"index": "ACROPHOBIA", "name": "", "description": "Your character can't be at high levels"}],
+
+    "locations":[
+    {"index": "HUMAN_WORLD", "name": "human world", "description": "Our dimension, here your character is determined by the human world rules"},
+    {"index": "ONIRIC_WORLD", "name": "oniric world", "description": "Dream dimension, here, time is different from the human world, you can train hundred years and wake up in the same day, dangerous for mortals"},
+    {"index": "OUTER_SPACE", "name": "outer space", "description": "Prime God's territory, the ancient legends say that the Gods came from outer space time ago and that they are still in our planet"},
+    {"index": "R'LYE", "name": "r'lye", "description": "Cthulhu's territory, the legends say that the Prime God stays there, sleeping, until his time comes, very dangerous for humans"},
+    {"index": "UNDERWORLD", "name": "underworld", "description": "Several theories say that under our feet there is life. Well, they are correct. And we should not bother them."},
+    {"index": "ATLANTIS", "name": "atlantis", "description": "The ancient city, that one time was over water. 'Worst place to be, I nearly got killed, but their art is beautiful', review from Gwendoline Knight"}
+    ],
+    "loss_of_sanity":[
+    {"index": "STAMPEDE", "name": "stampede", "description": "Your character is so frightened that starts running in the other direction for some turns"},
+    {"index": "PARANOIA", "name": "paranoia", "description": "Your character doesn't believes in anyone, thinks that everybody wants to kill him"},
+    {"index": "HYSTERICAL_LAUGHT", "name": "hysterical laught", "description": "Your character stays some turns laughting, you can do anything more"},
+    {"index": "BLACK_OUT", "name": "black out", "description": "Your character blacks out for some turns"}
+    ]
 }
